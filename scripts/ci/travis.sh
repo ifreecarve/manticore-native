@@ -15,6 +15,8 @@ then
   npm run objc-polyfill
   npm run objc-testjs
 
+  pod --version
+
   # now the test harness
   pushd runtime/objc
   pod install
